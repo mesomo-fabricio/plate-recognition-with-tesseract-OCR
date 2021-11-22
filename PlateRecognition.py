@@ -3,7 +3,7 @@ import pytesseract as tess
 from lib.lib_tess import diminuir
 
 
-iaPlaca = cv.CascadeClassifier(".cascades/Haarcascade_plate.xml") #IA DA PLACA
+iaPlaca = cv.CascadeClassifier("_cascades/Haarcascade_plate.xml") #IA DA PLACA
 ipcam = "http://192.168.0.103:4747/mjpegfeed"
 imagem = cv.imread("testeplaca.jpg")
 #camera = cv.VideoCapture(ipcam)
